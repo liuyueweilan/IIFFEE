@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task1</title>
+</head>
+<body>
+	<h1>
+		小花朵
+	</h1>
+	<ul>
+		<li>
+			<a href="#">我是小花朵</a>
+		</li>
+		<li>
+			<a href="#">我是小花朵2号</a>
+		</li>
+		<li>
+			<a href="#">我是小花朵3号</a>
+		</li>
+		<li>
+			<a href="#">我是小花朵4号</a>
+		</li>
+	</ul>
+	<ol>
+		<li>我是小草1号</li>
+		<li>我是小草2号</li>
+		<li>我是小草3号</li>
+	</ol>
+	<h2>
+		小花朵的故事
+	</h2>
+	<p>
+		很久很久很久很久很久很久很久很久很久很久很久很久很久很久很久很久很久很久以前，<em> 有个小欧花朵</em>，它住在这个地方 <a href="#">小花朵的家</a>，有一天她迷路了，<i>很伤心</i>，然后 <cite>没有然后</cite>了。
+	</p>
+	<h3>
+		小花朵的样子
+	</h3>
+	<img src="小花朵.jpg" alt="小花朵的样子">
+	<hr>
+	<h4>
+		下面是小花朵的亲戚
+	</h4>
+	<table>
+		<tr>
+			<th>家人</th>
+			<td>我是爸爸</td>
+			<td>我是妈妈</td>
+			<td>我是姐姐</td>
+		</tr>
+		<tr>
+			<th>家人</th>
+			<td>我是爸爸</td>
+			<td>我是妈妈</td>
+			<td>我是姐姐</td>	
+		</tr>
+		<tr>
+			<th>家人</th>
+			<td>我是爸爸</td>
+			<td>我是妈妈</td>
+			<td>我是姐姐</td>	
+		</tr>
+	</table>
+	<form action="" method="get">
+		<lable>
+			点我啊
+			<input type="text" value="说点什么呗">
+		</lable>
+		<input type="submit" value="点我啊">
+	</form>
+	<span>
+		吃点小菜
+	</span>
+	<select name="" id="">
+		<option value="鸡爪" selected="selected">鸡爪</option>
+		<option value="猪蹄">猪蹄</option>
+		<option value="蛋糕">蛋糕</option>
+	</select>
+	<br />
+	<input type="radio" id="cake"><lable for="">cake</lable>
+	<input type="radio" id="basketball"><lable for="basketball">basketball</lable>
+	<input type="radio" id="happy"><lable for="happy">happy</lable>
+	<br>
+	<textarea name="" id="" cols="30" rows="10">
+		哪个好吃
+	</textarea>
+	<input type="password">
+	<input type="submit" value="提交">
+	<input type="checkbox" name="male">male
+	<input type="checkbox" name="female">female
+	<br>
+	<span>版权所有&copy</span>
 
+</body>
+</html>
