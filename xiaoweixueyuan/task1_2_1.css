@@ -1,0 +1,261 @@
+body,div,ul, ol, 
+li, h1, h2, h3, h4, h5,
+h6, pre, form, fieldset, 
+input, p, blockquote, th,
+td,section{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: Microsoft YaHei,Verdana,Simsun;
+	background-color: #dedede;
+}
+#container{
+	margin: 0 auto;
+	width: 1240px;
+	
+}
+/*导航部分开始*/
+.Head_Nav{
+	background-color: #333333;
+	height: 60px;
+}
+.Head_Nav img{
+	margin-left:30px;
+}
+.Head_Nav ul{
+	width: 620px;
+	float: right;
+	text-align: right;
+	line-height: 60px;	
+}
+.Head_Nav ul li{
+	display: inline-block;
+}
+.Head_Nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.Head_Nav ul li a:nth-child(4){
+	color: #cccccc;
+}
+li{
+	list-style-type:circle;
+	margin-right: 20px;
+	list-style-image: url('dock.png')
+	
+}
+
+/*导航部分结束*/
+/*第一篇文章开始*/
+.first_passage,
+.second_passage,
+.image_area,
+.last_passage,
+.info{
+	margin:20px 0px; 
+	background-color: #ffffff;
+	border: 1px solid #9f9f9f;
+	box-shadow:2px 2px #9f9f9f;
+	padding-bottom: 25px;
+
+}
+h2,h3,.author{
+	text-indent:20px; 
+	margin-bottom: 15px;
+}
+h2{
+	margin-top:35px;
+}
+h3{
+	color:#656565;
+}
+.paragraph{
+	font-size: 15px;
+	margin: 15px 20px;
+	text-indent:30px;
+	line-height: 25px;
+}
+.author{
+	color:#656565;
+}
+img{
+	width: 300px;
+	height: 240px;
+	margin-left:20px;
+}
+.Head_Nav img{
+	width: 120px;
+	height: 35px;
+}
+/*第一篇文章结束*/
+/*第二篇文章开始*/
+.second_passage ul{
+	text-indent:50px;
+
+}
+.second_passage ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+/*第二篇文章结束*/
+/*图片区开始*/
+.image_area figure{
+	box-sizing: border-box;
+	width: 120px;
+	border: 1px solid #cccccc;
+	padding: 0px 10px 10px 10px;
+	margin:15px 0 0 60px;
+}
+.image_area figure figcaption{
+	text-indent: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.image_area img{
+	width: 100px;
+	height: 80px;
+	margin: 0px;
+}
+/*图片区结束*/
+/*最后一篇文章开始*/
+.last_passage p{
+	text-indent: 20px;
+}
+.last_passage ol{
+	font-weight: bold;
+	margin-left: 50px;
+}
+.last_passage ol li{
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+table{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+	border-collapse: collapse;
+	border:2px solid #cccccc;
+}
+table th{
+	padding-left:10px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #333333;
+
+}
+table,tr,th,td{
+	padding-left:10px;
+	border:1px solid #cccccc;
+}
+tr{
+	line-height: 24px;
+}
+tr:nth-last-child(1){
+	background-color:#cccccc;
+	font-weight: bold; 
+}
+/*最后一篇文章结束*/
+/*信息填写处开始*/
+.info h3{
+	color: #000000;
+	font-weight: bold;
+	line-height: 35px;
+	margin: 20px;
+	border-left:2px solid #cccccc;
+}
+
+form{
+	width: 1240px;
+}
+form label,
+form span{
+	display: inline-block;
+	width: 350px;
+	text-align: right;
+}
+form section{
+	margin: 10px 0;
+}
+#email,
+#password,
+#password2,
+select,
+textarea{
+	margin-left: 10px;	
+}
+form p{
+	color: #cccccc;
+	font-size: 14px;
+	width: 200px;
+	margin: 12px 0 12px 365px;
+}
+
+.checkbox,
+.radio{
+	margin-left: 10px;
+}
+.r{
+	margin:0px;
+	padding: 0px;
+	width: 50px;
+}
+.radioPerson{display:none}
+.radioInput{background-color:#fff;
+  border:2px solid #cccccc;
+  border-radius:100%;
+  display:inline-block;
+  height:12px;
+  width:12px;
+  margin-right:10px;
+  margin-top:-1px;
+  vertical-align:middle;
+  line-height:1}
+
+.radioPerson:checked + .radioInput:after{
+  background-color:#ffffff;
+  border-radius:100%;
+  content:"";
+  display:inline-block;
+  border:6px solid #2f9cff;
+  height:4px;
+  margin:2px;
+  width:4px;
+  margin-top:-1px;
+  margin-left:-1px;
+}
+
+
+textarea{
+	margin-left: 365px;
+	width: 765px;
+	height: 100px;
+	margin-top: -16px;
+}
+submit{
+	display: block;
+	width: 1200px;
+	margin:0 auto;
+	background-color: #3355d0;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+/*信息填写处结束*/
+footer{
+	width: 1240px;
+	line-height: 65px;
+	background-color: #000000;
+
+}
+footer h5{
+	width: 60px;
+	margin:0 auto;
+	color: #ffffff;
+}
